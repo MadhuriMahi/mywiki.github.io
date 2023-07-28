@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nayvik",
+			"ಮಲ್ನಾಡಾಚ್ ಕೊಂಕ್ಣೊ"
+		]
+	},
+	"openidoptional": "ಐಚ್ಛಿಕ",
+	"openidnickname": "ಉಪನಾಮ",
+	"openidlanguage": "ಭಾಷೆ",
+	"openidtimezone": "ಸಮಯ ವಲಯ",
+	"openidchoosepassword": "ಪ್ರವೇಶಪದ:",
+	"openid-urls-delete": "ಅಳಿಸು",
+	"openid-trusted-sites-delete-link-action-text": "ಅಳಿಸು"
+}

@@ -1,0 +1,25 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yupik"
+		]
+	},
+	"openidxrds": "Yadis-teâttõs",
+	"openiderror": "OpenID-vââʹǩǩ",
+	"openidoptional": "Vaʹlljeemnallšem",
+	"openidrequired": "Pääkklaž",
+	"openidemail": "E-pååʹštaddrõs",
+	"openidlanguage": "Ǩiõll",
+	"openidtimezone": "Äiʹǧǧvuʹvdd",
+	"openidchooseusername": "Õõʹnninõmm:",
+	"openidchoosepassword": "Peittsääʹnn:",
+	"openidalreadyloggedin": "Leäk juʹn ǩeeʹrjtõõttâm sizz.",
+	"openiddelete": "Jaukkâd OpenID",
+	"openiddelete-button": "Priim",
+	"openid-urls-url": "URL",
+	"openid-urls-delete": "Jaukkâd",
+	"openid-trusted-sites-delete-link-action-text": "Jaukkâd",
+	"openid-trusted-sites-delete-confirmation-button-text": "Priim",
+	"openid-login-or-create-account": "Ǩeeʹrjtõõđ sizz leʹbe raaj tobdldõõǥǥ",
+	"openid-provider-label-other-username": "Ǩeeʹrjet jiijjad $1-õõʹnninõõm"
+}

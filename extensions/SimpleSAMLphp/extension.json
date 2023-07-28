@@ -1,0 +1,67 @@
+{
+	"name": "SimpleSAMLphp",
+	"version": "7.0.0",
+	"author": [
+		"[https://www.mediawiki.org/wiki/User:Cindy.cicalese Cindy Cicalese]",
+		"[https://www.mediawiki.org/wiki/User:Osnard Robert Vogel]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:SimpleSAMLphp",
+	"descriptionmsg": "simplesamlphp-desc",
+	"license-name": "MIT",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0",
+		"extensions": {
+			"PluggableAuth": ">= 7.0"
+		}
+	},
+	"MessagesDirs": {
+		"SimpleSAMLphp": [
+			"i18n"
+		]
+	},
+	"ServiceWiringFiles": [
+		"includes/ServiceWiring.php"
+	],
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\SimpleSAMLphp\\": "src/"
+	},
+	"TestAutoloadNamespaces": {
+		"MediaWiki\\Extension\\SimpleSAMLphp\\Tests\\": "tests/phpunit/"
+	},
+	"config": {
+		"SimpleSAMLphp_InstallDir": {
+			"value": null
+		},
+		"SimpleSAMLphp_MandatoryUserInfoProviders": {
+			"value": {
+				"username": {
+					"class": "MediaWiki\\Extension\\SimpleSAMLphp\\UserInfoProvider\\LowerCasedUsername"
+				},
+				"rawusername": {
+					"class": "MediaWiki\\Extension\\SimpleSAMLphp\\UserInfoProvider\\Username"
+				},
+				"realname": {
+					"class": "MediaWiki\\Extension\\SimpleSAMLphp\\UserInfoProvider\\Realname"
+				},
+				"email": {
+					"class": "MediaWiki\\Extension\\SimpleSAMLphp\\UserInfoProvider\\Email"
+				}
+			}
+		}
+	},
+	"attributes": {
+		"PluggableAuth": {
+			"SimpleSAMLphp": {
+				"class": "MediaWiki\\Extension\\SimpleSAMLphp\\SimpleSAMLphp",
+				"services": [
+					"TitleFactory",
+					"UserFactory",
+					"SimpleSAMLphpSAMLClientFactory",
+					"SimpleSAMLphpMandatoryUserInfoProviderFactory"
+				]
+			}
+		}
+	},
+	"manifest_version": 2
+}

@@ -1,0 +1,29 @@
+{
+    "name": "LDAPAuth",
+    "version": "1.0.0",
+    "author": "Your Name",
+    "description": "LDAP authentication extension for MediaWiki",
+    "manifest_version": 2,
+    "AutoloadClasses": {
+        "LDAPAuth\\AuthenticationProvider": "LDAPAuth/AuthenticationProvider.php",
+        "LDAPAuth\\LDAPAuthenticationRequest": "LDAPAuth/LDAPAuthenticationRequest.php",
+        "LDAPAuth\\Hooks": "LDAPAuth/Hooks.php"
+    },
+    "autoload": {
+        "psr-4": {
+            "LDAPAuth\\": "LDAPAuth/"
+        }
+    },
+    "Hooks": {
+        "UserLoadFromSession": "LDAPAuth\\Hooks::onUserLoadFromSession",
+        "UserGetReservedUsernames": "LDAPAuth\\Hooks::onUserGetReservedUsernames"
+    },
+    "ExtensionMessagesFiles": {
+        "LDAPAuth": "LDAPAuth.i18n.php"
+    },
+    "AuthProviders": {
+        "ldap": {
+            "class": "LDAPAuth\\AuthenticationProvider"
+        }
+    }
+}

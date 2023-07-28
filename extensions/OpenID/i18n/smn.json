@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Seipinne",
+			"Yupik"
+		]
+	},
+	"openidfullname": "Olmâ nommâ",
+	"openidemail": "Šleđgâpostâčujottâs",
+	"openidlanguage": "Kielâ",
+	"openidtimezone": "Äigiavadâh",
+	"openidchooseusername": "Kevtteenommâ:",
+	"openid-urls-delete": "Siho",
+	"openid-trusted-sites-delete-link-action-text": "Siho"
+}

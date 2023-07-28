@@ -1,0 +1,71 @@
+ {
+            "name": "LDAPAuth",
+            "version": "1.0",
+            "author": "Madhuri",
+            "url": "http://localhost/mywiki",
+            "descriptionmsg": "ldapauth-desc",
+            "license-name": "GPL-2.0-or-later",
+            "type": "mediawiki-skin",
+            "requires": {
+                "MediaWiki": ">= 1.35"
+            },
+            "AutoloadClasses": {
+                "LDAPAuthHooks": "LDAPAuthHooks.php",
+                "LDAPAuth": "LDAPAuth.php"
+            },
+            "Hooks": {
+                "UserLoadFromSession": "LDAPAuthHooks::onUserLoadFromSession",
+                "UserGetReservedUsernames": "LDAPAuthHooks::onUserGetReservedUsernames",
+                "AuthChangeFormFields": "LDAPAuthHooks::onAuthChangeFormFields"
+            },
+            "ResourceModules": {
+                "ext.LDAPAuth": {
+                    "scripts": [
+                        "LDAPAuth.js"
+                    ],
+                    "styles": [
+                        "LDAPAuth.css"
+                    ]
+                }
+            },
+            "MessagesDirs": {
+                "LDAPAuth": [
+                    "i18n"
+                ]
+            },
+            "Config": {
+                "LDAPProviderDomainConfigs": {
+                    "grupopremo.local": {
+                        "connection": {
+                            "server": "cpdad01.grupopremo.local",
+                            "port": "389",
+                            "user": "cn=premo ad authentication,ou=script user,ou=premo,dc=grupopremo,dc=local",
+                            "pass": "Pq6AKz7o.Nv5",
+                            "enctype": "clear",
+                            "options": {
+                                "LDAP_OPT_DEREF": 1
+                            },
+                            "basedn": "dc=grupopremo,dc=local",
+                            "userbasedn": "dc=grupopremo,dc=local",
+                            "groupbasedn": "CN=SG.Wiki.Admin,OU=GlobalGroup,OU=Premo,DC=grupopremo,DC=local",
+                            "searchattribute": "sAMAccountName",
+                            "usernameattribute": "sAMAccountName",
+                            "realnameattribute": "cn",
+                            "emailattribute": "mail",
+                            "grouprequest": "MediaWiki\\Extension\\LDAPProvider\\UserGroupsRequest\\GroupMember::factory",
+                            "presearchusernamemodifiers": ["spacestounderscores", "lowercase"]
+                        },
+                        "userinfo": [],
+                        "authorization": [],
+                        "groupsync": {
+                            "mapping": {
+                                "bureaucrat": "CN=IT Premo Group,OU=OTHER,DC=grupopremo,DC=local",
+                                "interface-admin": "CN=IT Premo Group,OU=OTHER,DC=grupopremo,DC=local",
+                                "sysop": "CN=SG.Wiki.Admin,OU=GlobalGroup,OU=Premo,DC=grupopremo,DC=local"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        

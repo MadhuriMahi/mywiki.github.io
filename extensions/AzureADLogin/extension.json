@@ -1,0 +1,9 @@
+{
+    
+    "manifest_version": 1,
+    "name": "AzureADLogin",
+    "author": "Madhuri",
+    "version": "0.1",
+    "url": "http://localhost/mywiki",
+    "descriptionmsg": "azureadlogin-desc"
+}

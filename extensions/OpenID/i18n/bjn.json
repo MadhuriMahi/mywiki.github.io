@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ezagren"
+		]
+	},
+	"openidlogininstructions-passwordloginallowed": "Amun Pian sudah baisi akun di {{SITENAME}}, Pian kawa [[Special:UserLogin|babuat]] lawan ngaran pamakai wan sandi Pian nangkaya biasa.\nGasan mamakai OpenID satarusnya, Pian kawa [[Special:OpenIDConvert|maubah akun manjadi OpenID]] imbah Pian babuat nangkaya biasa."
+}

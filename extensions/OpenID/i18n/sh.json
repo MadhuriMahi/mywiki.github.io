@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vlad5250"
+		]
+	},
+	"openidlogin": "Prijava / napravi račun sa OpenID",
+	"openidserver": "OpenID server",
+	"openidxrds": "Yadis datoteka",
+	"openidconvert": "OpenID pretvarač",
+	"openiderror": "Greška u OpenID",
+	"openiderrortext": "Desila se greška pri provjeravanju URL adrese OpenID-a.",
+	"openidcancel": "Verifikacija je otkazana",
+	"openid-provider-selection-button-login-or-create-account": "Prijava / otvori račun putem OpenID",
+	"openid-provider-selection-button-login": "Prijava putem OpenID",
+	"openid-provider-selection-button-create-account": "Otvori račun putem OpenID",
+	"action-openid-login-with-openid": "prijavljivanje putem OpenID-ja",
+	"action-openid-create-account-with-openid": "pravljenje računa putem OpenID-ja",
+	"action-openid-create-account-without-openid": "ručno pravljenje računa, tj. bez OpenID-ja"
+}

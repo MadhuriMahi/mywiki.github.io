@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pacha Tchernof",
+			"פוילישער",
+			"පසිඳු කාවින්ද"
+		]
+	},
+	"openidemail": "בליצפּאָסט אַדרעס:",
+	"openidlanguage": "שפּראַך",
+	"openidtimezone": "צײַט זאָנע",
+	"openidchooseusername": "באַניצער נאָמען:",
+	"openidchoosepassword": "פאַסווארט:",
+	"openiddelete-button": "באַשטעטיקן",
+	"openid-urls-action": "אַקציע",
+	"openid-urls-delete": "אויסמעקן",
+	"openid-trusted-sites-delete-confirmation-button-text": "באַשטעטיקן"
+}

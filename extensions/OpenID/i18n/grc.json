@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Crazymadlover",
+			"Omnipaedista",
+			"PastelKos"
+		]
+	},
+	"openidoptional": "Προαιρετικόν",
+	"openidrequired": "Ἀπαιτούμενον",
+	"openidnickname": "Ψευδώνυμον",
+	"openidfullname": "Ἀληθὲς ὄνομα",
+	"openidemail": "Ἡλεκτρονικὴ διεύθυνσις",
+	"openidlanguage": "Γλῶττα",
+	"openidtimezone": "Χρονικὴ ζώνη:",
+	"openidchoosepassword": "Σῆμα:",
+	"openiddelete-button": "Κυροῦν",
+	"openid-urls-action": "Δρᾶσις",
+	"openid-urls-delete": "Σβεννύναι"
+}

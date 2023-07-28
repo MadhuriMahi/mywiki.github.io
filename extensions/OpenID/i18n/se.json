@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kimberli Mäkäräinen (WMNO)",
+			"Yupik"
+		]
+	},
+	"openidoptional": "Eaktodáhtolaš",
+	"openidemail": "E-poastačujuhus",
+	"openidlanguage": "Giella",
+	"openidchooseusername": "Geavaheaddjinamma:",
+	"openidchoosepassword": "Beassansátni:",
+	"openid-urls-url": "URL",
+	"openid-urls-delete": "Sihko",
+	"openid-trusted-sites-delete-link-action-text": "Sihko",
+	"openid-provider-selection-button-login": "Čálit sisa OpenID bokte"
+}

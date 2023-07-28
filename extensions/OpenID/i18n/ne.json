@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"RajeshPandey",
+			"पर्वत सुबेदी"
+		]
+	},
+	"openidemail": "इमेल ठेगाना",
+	"openidlanguage": "भाषा",
+	"openidtimezone": "समय क्षेत्र",
+	"openidchooseusername": "प्रयोगकर्ता नाम:",
+	"openid-urls-registration": "दर्ता समय",
+	"openid-urls-delete": "मेट्ने",
+	"openid-trusted-sites-delete-link-action-text": "मेट्ने"
+}
